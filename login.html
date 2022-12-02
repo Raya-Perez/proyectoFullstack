@@ -5,48 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link href="/styles.css">
+    <!-- <link href="/styles.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
 </head>
-<style>
-  :root{
-    --blue:#198DB2;
-    --white: #FFFFFF;
-    --black: #000000;
-    --green: #ACD9B2;
-  }
 
-  *{
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
-}
-body {
-      margin: 0;
-      font-family: 'Gemunu Libre', sans-serif;
-}
-</style>
 <body>
     <div class="login">
         <div class="formulario">
-          <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo">
+          <!-- <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo"> -->
     
           <form action="/" class="form">
-            <label for="email" class="label">User</label>
-            <input type="text" id="email" placeholder="Usuario" class="input input-email">
+            <label for="user" class="label">User</label>
+            <input type="text" id="text" placeholder="Usuario" class="input input-email">
     
             <label for="password" class="label">Password</label>
             <input type="password" id="password" placeholder="Contraseña" class="input input-password">
     
-            <input type="submit" value="Log in" class="primary-button login-button">
+            <input type="submit" value="Log in" class="log-in">
             <a href="/">Olvidaste tu contraseña</a>
           </form>
     
-          <button class="secondary-button signup-button">Sign up</button>
+          
         </div>
-      </div>
+    </div>
 
     <footer>
         <p>Creador :Juan Guillermo Perez Diplomado FullStack</p>
