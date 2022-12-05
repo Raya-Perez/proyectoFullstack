@@ -41,8 +41,14 @@ input {
     font-size: 15px;
 }
 
+.date {
+    margin-left: 80%;
+}
+
+
 button {
     margin: 20px;
+    align-items:center ;
 }
 .imagen  {
     background-color: var(--grey);
@@ -54,6 +60,8 @@ button {
     cursor: pointer;
     align-items: center;
     padding: 10px;
+    transform: translateX(-50%);
+    margin-left: 50%;
 }
 
 div{
@@ -66,6 +74,15 @@ div p {
     margin: 10px;
 }
 
+.notas{
+    display: grid;
+}
+
+.tabla-inventario{
+    padding: 10px;
+    text-align: center;
+}
+
 .agregar {
     background-color: var(--grey);
     color: var(--white);
@@ -76,6 +93,8 @@ div p {
     cursor: pointer;
     align-items: center;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .guardar{
@@ -88,6 +107,8 @@ div p {
     cursor: pointer;
     align-items: center;
     padding: 10px; 
+    transform: translateX(-50%);
+    margin-left: 50%;
 }
 
 footer {
